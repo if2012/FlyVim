@@ -6,6 +6,8 @@ let b:did_markdown_ftplugin = 1
 
 setlocal wrap
 
+let b:delimitMate_nesting_quotes = ['`']
+
 if has('gui_running')
     setlocal spell
 endif
