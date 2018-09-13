@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/vim-8.1+-blue.svg)](https://github.com/vim/vim)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/starifly/FlyVim/blob/master/LICENSE)
 
-## Install
+## Installation
 
 #### Quick Install
 
@@ -19,6 +19,10 @@ $ cd ~/.FlyVim
 $ make vim     # install FlyVim for Vim
 $ make neovim  # install FlyVim for NeoVim
 ```
+
+## Full Installation Guide
+
+<https://github.com/starifly/FlyVim/wiki/Full-Installation-Guide>
 
 ## Thanks
 
