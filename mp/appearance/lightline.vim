@@ -4,7 +4,6 @@ if isdirectory(expand(FlyVimBundleDir("lightline.vim")))
                 \ 'separator': { 'left': '', 'right': ''  },
                 \ 'subseparator': { 'left': '', 'right': ''  },
                 \   'mode_map': {
-                \     'n' : 'N',
                 \     'i' : 'I',
                 \     'R' : 'R',
                 \     'v' : 'V',
