@@ -8,6 +8,8 @@ setlocal wrap
 
 let b:delimitMate_nesting_quotes = ['`']
 
+let b:indentLine_enabled = 0
+
 if has('gui_running')
     setlocal spell
 endif
