@@ -1,4 +1,4 @@
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': function('FlyVim#plug#youcompleteme#build')  }
 aug load_ycm
     autocmd!
     autocmd CursorHold,CursorHoldI,InsertEnter * call youcompleteme#Enable()
