@@ -113,10 +113,16 @@ if isdirectory(expand(FlyVimBundleDir("lightline.vim")))
 
     function! LightlineFileformat()
         return winwidth(0) > 70 ? &fileformat : ''
+
+        " for plug vim-devicons
+        " return winwidth(0) > 70 ? (&fileformat . ' ' . WebDevIconsGetFileFormatSymbol()) : ''
     endfunction
 
     function! LightlineFiletype()
         return winwidth(0) > 70 ? (&filetype !=# '' ? &filetype : 'no ft') : ''
+
+        " for plug vim-devicons
+        " return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') : ''
     endfunction
 
     function! LightlineFileencoding()
